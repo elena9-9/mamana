@@ -1,0 +1,29 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #f5cba7;
+  font-family: "Heebo", sans-serif;
+}
+.box-img {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+  margin-top: 10rem;
+}
+.img {
+  width: 25rem;
+  transition: 0.5s;
+}
+.img:hover,
+.img:active {
+  transform: rotate(90deg);
+}
+.filter {
+  filter: blur(5px);
+}
+.p {
+  font-size: 2rem;
+  color: #493d32;
+}
